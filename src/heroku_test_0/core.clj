@@ -1,6 +1,10 @@
-(ns heroku-test-0.core)
+(ns heroku-test-0.core
+  (:require [ring.adapter.jetty :as jetty]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn app [req]
+  {:status 200
+   :headers {"Content-Type" "text/plain"}
+   :body "Hello, world"}})
+
+(defn -main [port]
+  (jetty/run-jetty app {:port (Integer. port) :join? false}))
