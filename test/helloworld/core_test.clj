@@ -1,6 +1,6 @@
-(ns heroku-test-0.core-test
+(ns helloworld.core-test
   (:require [clojure.test :refer :all]
-            [heroku-test-0.core :refer :all]))
+            [helloworld.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

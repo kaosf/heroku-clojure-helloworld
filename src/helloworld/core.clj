@@ -1,4 +1,4 @@
-(ns heroku-test-0.core
+(ns helloworld.core
   (:require [ring.adapter.jetty :as jetty])
   (:gen-class))
 

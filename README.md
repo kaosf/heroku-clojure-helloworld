@@ -1,4 +1,4 @@
-# heroku-test-0
+# helloworld
 
 ## Versions
 
@@ -9,17 +9,17 @@
 
 ```sh
 lein repl
-# > (require 'heroku-test-0.core)
-# > (heroku-test-0.core/-main 5000)
+# > (require 'helloworld.core)
+# > (helloworld.core/-main 5000)
 
 # or
 
-lein run -m heroku-test-0.core 5000
+lein run -m helloworld.core 5000
 
 # or
 
 lein uberjar
-java -cp target/heroku-test-0-standalone.jar clojure.main -m heroku-test-0.core 5000
+java -cp target/helloworld-standalone.jar clojure.main -m helloworld.core 5000
 ```
 
 ## Deploy to Heroku

@@ -1,3 +1,3 @@
-# Introduction to heroku-test-0
+# Introduction to helloworld
 
 TODO: write [great documentation](http://jacobian.org/writing/great-documentation/what-to-write/)
