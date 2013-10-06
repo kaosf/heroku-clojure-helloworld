@@ -1,5 +1,6 @@
 (ns heroku-test-0.core
-  (:require [ring.adapter.jetty :as jetty]))
+  (:require [ring.adapter.jetty :as jetty])
+  (:gen-class))
 
 (defn app [req]
   {:status 200
