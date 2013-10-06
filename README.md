@@ -2,8 +2,16 @@
 
 ## Versions
 
-* Leiningen: 2.3.3
-* OpenJDK: 1.7.0 64bit
+I've checked this application with following version tools.
+
+* Leiningen
+    * 2.3.2
+    * 2.3.3
+* JVM
+    * OpenJDK
+        * 1.7.0 64bit
+    * OracleJDK
+        * 1.6.0 64bit
 
 ## Run server on local development environment
 
