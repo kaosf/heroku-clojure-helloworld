@@ -28,6 +28,11 @@ lein run -m helloworld.core 5000
 
 lein uberjar
 java -cp target/helloworld-standalone.jar clojure.main -m helloworld.core 5000
+
+# or
+
+lein uberjar
+java -jar target/helloworld-standalone.jar 5000
 ```
 
 ## Deploy to Heroku
