@@ -7,6 +7,7 @@ I've checked this application with following version tools.
 * Leiningen
     * 2.3.2
     * 2.3.3
+    * 2.3.4
 * JVM
     * OpenJDK
         * 1.7.0 64bit
